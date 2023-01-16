@@ -1,0 +1,25 @@
+.formBody{
+}
+
+.label{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.label > span{
+    display: inline-block;
+    margin-right: 12px;
+}
+
+.input{
+    outline: none;
+    padding: 8px 12px;
+    font-size: 19px;
+    color: #444;
+}
+
+.send{
+    display: inline-block;
+    margin-top: 10px;
+}

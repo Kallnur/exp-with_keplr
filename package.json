@@ -1,0 +1,27 @@
+{
+  "name": "exp-with_keplr-vite",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@cosmjs/launchpad": "^0.27.1",
+    "@cosmjs/stargate": "^0.29.5",
+    "buffer": "^6.0.3",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@keplr-wallet/types": "^0.11.32",
+    "@types/react": "^18.0.26",
+    "@types/react-dom": "^18.0.9",
+    "@vitejs/plugin-react": "^3.0.0",
+    "typescript": "^4.9.3",
+    "vite": "^4.0.0",
+    "vite-plugin-notifier": "^0.1.5"
+  }
+}
